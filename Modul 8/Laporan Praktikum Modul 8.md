@@ -20,16 +20,24 @@ Jenis antrian yang dapat mengatur elemen berdasarkan nilai prioritasnya dapat di
 Priority Queue berdasarkan aturan elemen yang prioritasnya lebih tinggi, diproses lebih dahulu dibandingkan dengan elemen yang prioritasnya lebih rendah dan dua elemen dengan prioritas yang sama, diproses sesuai dengan urutan mereka sewaktu dimasukkan ke dalam priority queue [1]. Berikut ilustrasi Priority Queue:
 
 <p align="center">
-  <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assigment-Modul-8/blob/main/Modul%208/SS/Screenshot%202024-05-22%20023832.png" alt="Alt Text"> Gambar 1. Ilustrasi Priority Queue
+  <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assigment-Modul-8/blob/main/Modul%208/SS/Screenshot%202024-05-22%20023832.png" alt="Alt Text">
 </p> 
+<p align="center">
+ Gambar 1. Ilustrasi Priority Queue
+</p> 
+
 
 Pada gambar di atas terdapat angka 1-9 yang dipilih secara acak. Dimana angka 9 akan di dequeue sementara angka 1 akan di enqueue. Angka 9 di dequeue karena angka 9 merupakan angka dengan nilai tertinggi sehingga memiliki nilai prioritas yang tinggi. Terdapat berbagai macam cara untuk implementasi priority queue ini, dimana terdapat dalam penggunaan array, linked list, heap, serta binary search tree. 
 
 Terdapat dua jenis heap, diantaranya Min heap (nilai terkecil menjadi prioritas) serta Max heap (nilai terbesar menjadi prioritas), berikut ilustrasinya:
 
 <p align="center">
-  <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assigment-Modul-8/blob/main/Modul%208/SS/Screenshot%202024-05-22%20023853.png" alt="Alt Text">2. Ilustrasi dua jenis priority queue
+  <img src="https://github.com/rizaledc/Praktikum-Struktur-Data-Assigment-Modul-8/blob/main/Modul%208/SS/Screenshot%202024-05-22%20023853.png" alt="Alt Text">
 </p> 
+<p align="center">
+ Gambar 2. Ilustrasi dua jenis priority queue
+</p> 
+
 
 Heap di dalam struktur data merupakan struktur berbasis binary tree dengan aturannya. Dimana min heap pada gambar di atas, nilai parentsnya harus lebih kecil atau sama dengan dibandingkan nilai childnya pada contoh di atas angka 2 sebagai parent akan lebih kecil dibandingkan nilai childnya. Pada max heap di atas, nilai parentsnya harus lebih besar atau sama dengan dibandingkan nilai childnya, contohnya di atas angka 25 menjadi parents akan lebih besar jika dibandingkan dengan childnya.
 
